@@ -232,7 +232,7 @@ hello
 Uncaught ReferenceError: b is not defined
 ```
 
-In the above example, variable <h3 style="display:inline-block; height:30px; border: 1px solid gray; border-radius:5px;">b</h3> is hoisted to the top of the function <h3 style="display:inline-block; height:30px; border: 1px solid gray; border-radius:5px;">grret</h3> and becomes a local variable. Hence <h3 style="display:inline-block; height:30px; border: 1px solid gray; border-radius:5px;">b</h3> is only accessible inside the function. <h3 style="display:inline-block; height:30px; border: 1px solid gray; border-radius:5px;">b</h3> does not become a global variable.
+In the above example, variable <h3 style="display:inline-block; height:30px; border: 1px solid gray; border-radius:5px;">b</h3> is hoisted to the top of the function <h3 style="display:inline-block; height:30px; border: 1px solid gray; border-radius:5px;">greet</h3> and becomes a local variable. Hence <h3 style="display:inline-block; height:30px; border: 1px solid gray; border-radius:5px;">b</h3> is only accessible inside the function. <h3 style="display:inline-block; height:30px; border: 1px solid gray; border-radius:5px;">b</h3> does not become a global variable.
 
 >**Note**: In hoisting, the variable declaration is only accessible to the immediate scope.
 
